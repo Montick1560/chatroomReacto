@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container,Col,Row, Button,Form } from 'react-bootstrap'
 const WaitingRoom = ({ joinChatRoom }) => {
-    const [user, setUsername] = useState();
+    const [username, setUsername] = useState();
     const [chatroom, setChatRoom] = useState();
     return <Form onSubmit={e => {
         e.preventDefault();
